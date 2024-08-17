@@ -29,10 +29,6 @@ elif tipoQuestao == 'c' :
     fat_total = math.factorial(OP_total)
     fat_rest = math.factorial(OP_rest)
 
-    #sub = OP_total - OP_rest
-
-    #fat_sub = math.factorial(sub)
-
     Combinacao = fat_total / fat_rest * ( 1 / math.factorial(OP_total - OP_rest))
 
     print(f"O resultado dessa questão usando o método de combinação foi de: {int(Combinacao)} combinações.")
