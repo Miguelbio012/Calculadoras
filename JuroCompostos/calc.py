@@ -36,4 +36,4 @@ montante = capital * (1 + taxaJC) ** tempoMes
 
 # Apresentação do resultado
 
-print(f"O montante após {tempoMes} meses será de {int(montante)}")
+print(f"O montante após {tempoMes} meses será de {montante}")
